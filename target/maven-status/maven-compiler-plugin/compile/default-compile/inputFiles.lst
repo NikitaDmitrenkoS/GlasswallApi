@@ -1,0 +1,12 @@
+/Users/nikita/Documents/glasswall-solutions/src/main/java/org/glasswall/solutions/model/ContentManagementFlags.java
+/Users/nikita/Documents/glasswall-solutions/src/main/java/org/glasswall/solutions/model/WordContentManagement.java
+/Users/nikita/Documents/glasswall-solutions/src/main/java/org/glasswall/solutions/exceptions/RebuildApiConfigurationException.java
+/Users/nikita/Documents/glasswall-solutions/src/main/java/org/glasswall/solutions/model/PdfContentManagement.java
+/Users/nikita/Documents/glasswall-solutions/src/main/java/org/glasswall/solutions/exceptions/RebuildApiValidationException.java
+/Users/nikita/Documents/glasswall-solutions/src/main/java/org/glasswall/solutions/model/RebuildRequestBody.java
+/Users/nikita/Documents/glasswall-solutions/src/main/java/org/glasswall/solutions/client/RebuildClient.java
+/Users/nikita/Documents/glasswall-solutions/src/main/java/org/glasswall/solutions/model/Base64RequestBody.java
+/Users/nikita/Documents/glasswall-solutions/src/main/java/org/glasswall/solutions/exceptions/RebuildApiException.java
+/Users/nikita/Documents/glasswall-solutions/src/main/java/org/glasswall/solutions/model/PowerPointContentManagement.java
+/Users/nikita/Documents/glasswall-solutions/src/main/java/org/glasswall/solutions/model/ExcelContentManagement.java
+/Users/nikita/Documents/glasswall-solutions/src/main/java/org/glasswall/solutions/model/RebuildFileRequestBody.java

@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: org.glasswall.solutions.client.RebuildClientTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 1.508 s <<< FAILURE! - in org.glasswall.solutions.client.RebuildClientTest
+testRebuildBase64UnSuccessResponse(org.glasswall.solutions.client.RebuildClientTest)  Time elapsed: 0.667 s  <<< ERROR!
+java.lang.Exception: Unexpected exception, expected<org.glasswall.solutions.exceptions.RebuildApiException> but was<java.lang.NullPointerException>
+	at org.glasswall.solutions.client.RebuildClientTest.testRebuildBase64UnSuccessResponse(RebuildClientTest.java:119)
+
+testRebuildBase64(org.glasswall.solutions.client.RebuildClientTest)  Time elapsed: 0.013 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.glasswall.solutions.client.RebuildClientTest.testRebuildBase64(RebuildClientTest.java:177)
+
+testRebuild(org.glasswall.solutions.client.RebuildClientTest)  Time elapsed: 0.031 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.glasswall.solutions.client.RebuildClientTest.testRebuild(RebuildClientTest.java:76)
+
+testRebuildBase64ContentAreTheSame(org.glasswall.solutions.client.RebuildClientTest)  Time elapsed: 0.046 s  <<< ERROR!
+java.lang.Exception: Unexpected exception, expected<org.glasswall.solutions.exceptions.RebuildApiException> but was<java.lang.NullPointerException>
+	at org.glasswall.solutions.client.RebuildClientTest.testRebuildBase64ContentAreTheSame(RebuildClientTest.java:148)
+
