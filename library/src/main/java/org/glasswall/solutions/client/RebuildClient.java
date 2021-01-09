@@ -24,9 +24,7 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Base64;
-import java.util.Collections;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 @Getter
@@ -138,13 +136,12 @@ public class RebuildClient {
 			.header("Authorization", jwtToken)
 			.build();
 
-		HttpResponse<String> send = httpClient.send(request, HttpResponse.BodyHandlers.ofString());
+		HttpResponse<byte[]> send = httpClient.send(request, HttpResponse.BodyHandlers.ofByteArray());
 		if (send.statusCode() != 200) {
 			throw new RebuildApiException("Response is not 200");
 		}
 
-		byte[] encode = Base64.getDecoder().decode(send.body().getBytes());
-		FileUtils.writeByteArrayToFile(new File(destinationFileUrl), encode);
+		FileUtils.writeByteArrayToFile(new File(destinationFileUrl), send.body());
 	}
 
 	public static HttpRequest.BodyPublisher oMultipartData(Map<Object, Object> data,
